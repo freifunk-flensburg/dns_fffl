@@ -1,0 +1,65 @@
+;; 10.129.zone
+;; Reverselookupzone für domainname
+;;
+$TTL 2D
+@       IN      SOA     snowden.fffl. mail.domainname. (
+                                	1      ; Serial
+                                        8H      ; Refresh
+                                        2H      ; Retry
+                                        4W      ; Expire
+                                        2D )    ; TTL Negative Cache
+
+@       IN      NS      snowden.fffl.
+
+; gateways
+1.1    	IN     	PTR   	snowden.fffl.
+2.1    	IN    	PTR   	manning.fffl.
+3.1    	IN    	PTR   	assange.fffl.
+4.1    	IN    	PTR   	swartz.fffl.
+5.1 	IN	PTR	applebaum.fffl.
+6.1	IN	PTR	urbach.fffl.
+7.1	IN	PTR	svartholm.fffl.
+8.1	IN	PTR	wauholland.fffl.
+9.1	IN	PTR	kurz.fffl.
+10.1	IN	PTR	lovelace.fffl.
+11.1	IN	PTR	weichert.fffl.
+12.1	IN	PTR	torvalds.fffl
+13.1	IN	PTR	padeluun.fffl.
+14.1	IN	PTR	tangens.fffl.
+15.1	IN	PTR	rieger.fffl.
+16.1	IN	PTR	fefe.fffl.
+17.1	IN	PTR	neumann.fffl.
+18.1	IN	PTR	ritchie.fffl.
+19.1	IN	PTR	thompson.fffl.
+20.1	IN	PTR	clubmate.fffl.
+
+; servers
+;8.0           PTR   krtek.ffhl.
+;9.0           PTR   srv01.ffhl.
+;12.0          PTR   stmarien.ffhl.
+;13.0          PTR   serverbox.ffhl.
+;15.0          PTR   staegidien.ffhl.
+;17.0          PTR   greendog.ffhl.
+;18.0          PTR   meuteblog.ffhl.
+;42.0          PTR   nasbox.ffhl.
+;28.0          PTR   stjuergen.ffhl.
+;29.0          PTR   namshub.ffhl.
+;30.0          PTR   enki.ffhl.
+;31.0          PTR   innana.ffhl.
+;32.0          PTR   opz.ffhl.
+;33.0          PTR   me.ffhl.
+;64.0          PTR   cic.ffhl.
+;133.0         PTR   freeway.ffhl.
+;5.8           PTR   robusta.ffhl.
+;3.16          PTR   derderwish.ffhl.
+;2.16          PTR   chip.ffhl.
+;8.16          PTR   dysis.ffhl.
+;18.16         PTR   hinkelstein.ffhl.
+;2.118         PTR   zenforyen.ffhl.
+;200.17        PTR   owncloud.ffhl.
+
+; meutenetz
+
+;123           NS    krtek.meute.ffhl.
+
+; clients

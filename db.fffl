@@ -1,0 +1,41 @@
+;; db.fffl
+;; Forwardlookupzone für fffl
+;;
+$TTL 2D
+@       IN      SOA     fffl. mail.domainname. (
+                                1       ; Serial
+                                8H      ; Refresh
+                                2H      ; Retry
+                                4W      ; Expire
+                                3H )    ; NX (TTL Negativ Cache)
+
+@                               IN      NS      snowden.fffl.
+;                               IN      MX      10 mailserver.domainname.
+;                                IN      A       192.168.0.10
+
+snowden                         IN      A       10.129.1.1  
+manning				IN	A 	10.129.1.2
+assange				IN	A	10.129.1.3
+swartz				IN 	A 	10.129.1.4
+applebaum			IN 	A 	10.129.1.5
+urbach				IN 	A 	10.129.1.6
+svartholm			IN	A 	10.129.1.7
+wauholland			IN 	A 	10.129.1.8
+kurz				IN 	A 	10.129.1.9
+lovelace			IN 	A	10.129.1.10
+weichert			IN	A 	10.129.1.11
+torvalds			IN	A	10.129.1.12
+padeluum			IN	A 	10.129.1.13
+tangens				IN	A	10.129.1.14
+rieger				IN	A	10.129.1.15
+fefe				IN	A 	10.129.1.16
+neumann				IN	A	10.129.1.17
+ritchie				IN	A 	10.129.1.18
+thompson			IN	A 	10.129.1.19
+clubmate			IN	A	10.129.1.20
+
+;localhost                       IN      A       127.0.0.1
+;rechner1                        IN      A       192.168.0.200
+;mailserver                      IN      A       192.168.0.201
+;rechner2                        IN      CNAME   mailserver
+
