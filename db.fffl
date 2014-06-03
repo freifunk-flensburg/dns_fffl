@@ -34,8 +34,3 @@ ritchie				IN	A 	10.129.1.18
 thompson			IN	A 	10.129.1.19
 clubmate			IN	A	10.129.1.20
 
-;localhost                       IN      A       127.0.0.1
-;rechner1                        IN      A       192.168.0.200
-;mailserver                      IN      A       192.168.0.201
-;rechner2                        IN      CNAME   mailserver
-
