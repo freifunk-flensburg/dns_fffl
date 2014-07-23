@@ -11,7 +11,7 @@ $TTL 2D
 
 @                               IN      NS      snowden.fffl.
 ;                               IN      MX      10 mailserver.domainname.
-;                                IN      A       192.168.0.10
+;                               IN      A       192.168.0.10
 
 snowden                         IN      A       10.129.1.1  
 manning				IN	A 	10.129.1.2
@@ -19,8 +19,8 @@ assange				IN	A	10.129.1.3
 swartz				IN 	A 	10.129.1.4
 applebaum			IN 	A 	10.129.1.5
 urbach				IN 	A 	10.129.1.6
-map	IN	A	10.129.1.6
-irc	IN	A	10.129.1.6
+map	                                                                                                IN	A	10.129.1.6
+irc	                                                                IN	A	10.129.1.6
 svartholm			IN	A 	10.129.1.7
 wauholland			IN 	A 	10.129.1.8
 kurz				IN 	A 	10.129.1.9
