@@ -3,7 +3,7 @@
 ;;
 $TTL 2D
 @       IN      SOA     fffl. mail.domainname. (
-                                2       ; Serial
+                                4       ; Serial
                                 8H      ; Refresh
                                 2H      ; Retry
                                 4W      ; Expire
@@ -19,3 +19,13 @@ gw02				IN	A	10.129.1.2
 				IN	A	37.120.170.84
 				IN	AAAA	2a03:4000:6:509e::1
 				IN	AAAA	fddf:4000:6:509e::1
+				IN	AAAA	2001:bf7:10:1:1::2
+				IN	AAAA	fddf:bf7:10:1:1::2
+update01			IN	A	10.129.1.1
+				IN	A	5.9.153.197
+update02			IN	A	10.129.1.2
+				IN	A	37.220.170.84
+				IN	AAAA	2a03:4000:6:509e::1
+                                IN	AAAA	2001:bf7:10:1:1::2
+				IN	AAAA	fddf:bf7:10:1:1::2
+
