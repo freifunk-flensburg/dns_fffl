@@ -3,7 +3,7 @@
 ;;
 $TTL 2D
 @       IN      SOA     fffl. mail.domainname. (
-                                1       ; Serial
+                                2       ; Serial
                                 8H      ; Refresh
                                 2H      ; Retry
                                 4W      ; Expire
@@ -12,13 +12,10 @@ $TTL 2D
 @                               IN      NS      snowden.fffl.
 ;                               IN      MX      10 mailserver.domainname.
 				IN	A       10.129.1.1 ;; Eigene IP
-				IN	AAAA	2001:bf7:10:0:fdb1:b061:cd09:a24f
 
 snowden                         IN	A	10.129.1.1
-				IN	A	externe ip
-				IN	AAAA	2001:bf7:10:0:fdb1:b061:cd09:a24f
-				IN	AAAA	localfddf
-gw02				IN	A	10.129.1.6
-				IN	A	externe ip
-				IN	AAAA	extipv6
-				IN	AAAA	localfddf
+				IN	A	5.9.153.197
+gw02				IN	A	10.129.1.2
+				IN	A	37.120.170.84
+				IN	AAAA	2a03:4000:6:509e::1
+				IN	AAAA	fddf:4000:6:509e::1
