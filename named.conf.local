@@ -7,4 +7,4 @@
 //include "/etc/bind/zones.rfc1918";
 
 zone "fffl" {type master; file "/etc/bind/db.fffl";};
-zone "120.10.in-addr.arpa" {type master; file "/etc/bind/10.129.zone";};
+zone "129.10.in-addr.arpa" {type master; file "/etc/bind/10.129.zone";};
