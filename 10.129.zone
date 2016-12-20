@@ -3,7 +3,7 @@
 ;;
 $TTL 2D
 @       IN      SOA     snowden.fffl. mail.domainname. (
-                                	2      ; Serial
+                                	3      ; Serial
                                         8H      ; Refresh
                                         2H      ; Retry
                                         4W      ; Expire
@@ -14,3 +14,6 @@ $TTL 2D
 ; gateways
 1.1    	IN     	PTR   	snowden.fffl.
 2.1    	IN    	PTR   	gw02.fffl.
+3.1     IN      PTR     ffflgate.fffl.
+5.1     IN      PTR     gw01.fffl.
+15.1    IN      PTR     harrier.fffl.
