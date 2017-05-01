@@ -12,6 +12,8 @@ $TTL 2D
 @                               IN      NS      snowden.fffl.
 ;                               IN      MX      10 mailserver.domainname.
 				IN	A       10.129.1.1 ;; Eigene IP
+				
+router				IN	A	10.129.0.1 ;; Locale Routers
 
 snowden                         IN	A	10.129.1.1
 				IN	A	5.9.153.197
