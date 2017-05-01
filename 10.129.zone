@@ -11,6 +11,9 @@ $TTL 2D
 
 @       IN      NS      snowden.fffl.
 
+; locale Routers
+0.1     IN      PTR     router.fffl.
+
 ; gateways
 1.1    	IN     	PTR   	snowden.fffl.
 2.1    	IN    	PTR   	gw02.fffl.
